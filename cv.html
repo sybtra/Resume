@@ -5,28 +5,107 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: white;
+            color: black;
+        }
+
+        /*le contenu navbar */
+        .topnav {
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        /* liens Navbar */
+        .topnav a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        /* Liens - changement de couleur quand la souris sur */
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        /* création de 3 colones l'une après l'autre */
+        .column {
+            float: left;
+            width: 33.33%;
+        }
+
+        /* flottement claire après chaque  */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* affichage responsive - adaptation aux petits écrans */
+        @media screen and (max-width: 600px) {
+            .column {
+                width: 100%;
+            }
+        }
+        h1,
+        h2 {
+            color: white;
+            text-align: center;
+            margin: auto;
+        }
+
+
+        p {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            margin: auto;
+        }
+
+        #informatic {}
+
+
+        #donne {}
+
+        #outildev {}
+
+        #outiltrav {}
+
+        #autrcom {}
+
+        #interet {}
+
+        #forma {}
+
+        #inter {}
+
+        #lang {}
+
+        #prof {}
+
+        #recherche {}
+    </style>
     <title>CV BTRAORE</title>
 </head>
 
-<style>
-
-</style>
-
 <body>
-    <div>
-        <a href="#contact">Contact</a>
-        <a href="#informatic">Compétences informatiques</a>
-        <a href="#donne">Base de Donné</a>
-        <a href="#outildev">Outils de développement</a>
-        <a href="#outiltrav">Outils de travail</a>
-        <a href="#autrcom">Autres compétences</a>
-        <a href="#interet">Centre d’intérêt</a>
-        <a href="#forma">Formation & Diplômes</a>
-        <a href="#inter">Expériences internationnales</a>
-        <a href="#lang">Langues</a>
-        <a href="#prof">Expériences professionnelles</a>
-        <a href="#recherche">Travaux de recherche</a>
-    </div>
+    <nav class="topnav">
+        <p><a href="#informatic">Compétences informatiques</a></p>
+        <p><a href="#donne">Base de Donné</a></p>
+        <p><a href="#outildev">Outils de développement</a></p>
+        <p><a href="#outiltrav">Outils de travail</a></p>
+        <p><a href="#autrcom">Autres compétences</a></p>
+        <p><a href="#interet">Centre d’intérêt</a></p>
+        <p><a href="#forma">Formation & Diplômes</a></p>
+        <p><a href="#inter">Expériences internationnales</a></p>
+        <p><a href="#lang">Langues</a></p>
+        <p><a href="#prof">Expériences professionnelles</a></p>
+        <p><a href="#recherche">Travaux de recherche</a></p>
+    </nav>
     <div>
         <h1>Le développement, la passion !</h1>
         <p>Suite à une formation universitaire dans le commerce international, je me suis orienté vers le développement
